@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#img-currency {
+    width: 150px;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 2px 15px 2px 15px;
+}
+
+.btn:hover {
+    color: rgb(0, 239, 0);
+}
+
+.amount {
+    border: none;
+    text-align: right;
+    font-size: 30px;
+}
